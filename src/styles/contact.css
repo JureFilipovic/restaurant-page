@@ -1,0 +1,35 @@
+.contact {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.contact h1 {
+    font-family: "Bangers", sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.contact .chef-image {
+    width: 200px;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact .chef-image:hover {
+    transform: scale(1.4);
+}
+
+.contact strong {
+    color: var(--primary-color);
+}

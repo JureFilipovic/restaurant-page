@@ -1,0 +1,30 @@
+.home {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.home h1 {
+    font-family: "Bangers", sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.home img {
+    width: 300px;
+    height: auto;
+    margin-top: 1rem;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease-in-out;
+}
+
+.home img:hover {
+    transform: scale(1.4);
+}
